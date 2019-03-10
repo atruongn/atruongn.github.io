@@ -98,7 +98,7 @@ ul {
     margin-bottom:80px;
 }
 
-#projinfo {
+#workinfo {
     margin-top:20px;
 }
 
@@ -120,6 +120,39 @@ ul {
 
 .workimg {
     margin-top:40px;
+}
+
+.video-wrapper {
+    position: relative;
+}
+
+.video-wrapper > video {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {
+    display: none;
+}
+
+.video-overlay-play-button {
+    background-color:white;
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    opacity: 0.80;
+    cursor: pointer;
+    transition: opacity 150ms;
+}
+
+.video-overlay-play-button:hover {
+    opacity: 1;
+}
+
+.video-overlay-play-button.is-hidden {
+    display: none;
 }
 
 
@@ -374,7 +407,7 @@ p {
 /* ==== GRID SYSTEM ==== */
 
 .container {
-  width: 90%;
+  width: 93%;
   max-width:1500px;
   margin: 0 auto;
 }
