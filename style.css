@@ -94,6 +94,10 @@ ul {
     margin-top:150px;
 }
 
+#myQuote {
+    text-decoration:none;
+}
+
 #content {
     margin-top:80px;
 }
