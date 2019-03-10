@@ -6,12 +6,57 @@ body {
     color:white;
 }
 
+a {
+    transition: .1s;
+}
+a:hover {
+    color:#d0736c;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
 #header {
     position:relative;
     z-index:55;
     padding-top:20px;
     font-size:1.6rem;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
 }
+
+@-webkit-keyframes header {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateY(-30px);
+            }
+            100% {
+               opacity: 1;
+               -webkit-transform: translateY(0);
+            }
+         }
+         
+         @keyframes header {
+            0% {
+               opacity: 0;
+               transform: translateY(-30px);
+            }
+            100% {
+               opacity: 1;
+               transform: translateY(0);
+            }
+         }
+         
+         #header {
+            -webkit-animation-name: header;
+            animation-name: header;
+         }
 
 #nav {
     float:right;
@@ -23,22 +68,12 @@ body {
     color:white;
 }
 #name a {
+    color:white;
     text-decoration:none;
 }
 
 #name, #nav {
     display:inline;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-}
-
-li a {
-    text-decoration:;
 }
 
 #main {
@@ -216,45 +251,10 @@ li a {
 
 }
 
-#header {
-    -webkit-animation-duration: 0.5s;
-            animation-duration: 0.5s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-}
-
-@-webkit-keyframes header {
-            0% {
-               opacity: 0;
-               -webkit-transform: translateY(-30px);
-            }
-            100% {
-               opacity: 1;
-               -webkit-transform: translateY(0);
-            }
-         }
-         
-         @keyframes header {
-            0% {
-               opacity: 0;
-               transform: translateY(-30px);
-            }
-            100% {
-               opacity: 1;
-               transform: translateY(0);
-            }
-         }
-         
-         #header {
-            -webkit-animation-name: header;
-            animation-name: header;
-         }
-
 .wrapper {
     width: 95%;
     margin: 3em auto;
 }
-
 
 
 @media only screen and (min-width: 400px) {
