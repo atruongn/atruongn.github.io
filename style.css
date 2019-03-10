@@ -368,12 +368,16 @@ body {
   color: #fff;
   line-height: 1.5;
   font-weight:normal;
+  text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: subpixel-antialiased;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 }
 
 /* TYPOGRAPHY */
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   line-height:3rem;
 }
 
@@ -600,7 +604,7 @@ p {
     line-height:3.9rem;
     }
     #intro {
-    max-width:900px;
+    max-width:920px;
     }
     #info {
     font-size:1.5rem;
