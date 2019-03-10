@@ -87,7 +87,7 @@ ul {
 
 #main {
     position:relative;
-        margin-bottom:80px;
+    padding-bottom:80px;
 }
 
 #intro {
@@ -100,6 +100,21 @@ ul {
 
 #workinfo {
     margin-top:20px;
+}
+
+#work {
+    position:relative;
+}
+
+.title {
+    position:absolute;
+    bottom:7px;
+    display:inline-block;
+    font-size:1rem;
+    font-weight:700;
+    padding:20px;
+    background-color:white;
+    color:black;
 }
 
 .info {
@@ -259,7 +274,7 @@ ul {
 }
 
 .menu2 li {
-    padding:20px;
+    padding:10px;
 }
 
 .menu-btn:checked ~ .menu {
