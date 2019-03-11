@@ -81,7 +81,7 @@ ul {
 }
 
 #name, #nav {
-    display:inline;
+    display:inline-block;
 }
 
 #main {
@@ -164,6 +164,10 @@ ul {
 #myQuote a{
     text-decoration:none;
     line-height: 3rem;
+    color:#f0d5d2;
+}
+#myQuote a:hover {
+    color:#d0736c;
 }
 
 #content {
