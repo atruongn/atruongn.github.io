@@ -217,7 +217,7 @@ ul {
 #tag {
     margin-top:20px;
     font-size:0.8rem;
-    float:right;
+    float:left;
 }
 
 .workimg {
@@ -685,7 +685,9 @@ p {
     .poster {
     padding-left:27%;
 }
-
+    #tag {
+        float:right;
+    }
 }
 
 
