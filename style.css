@@ -224,6 +224,12 @@ ul {
     margin-top:40px;
 }
 
+.posters {
+    display:flex; 
+    justify-content: space-aroung; 
+    flex-wrap: wrap;
+}
+
 .video-wrapper {
     position: relative;
 }
@@ -542,7 +548,7 @@ p {
 .col-10,
 .col-11,
 .col-12 {
-  width: 99%;
+  width: 100%;
 }
 
 .col-1-sm {
@@ -632,7 +638,7 @@ p {
   }
 
   .col-4 {
-    width: 29.33%;
+    width: 30%;
   }
 
   .col-5 {
