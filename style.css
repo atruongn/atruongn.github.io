@@ -7,6 +7,7 @@ body {
 
 a {
     transition: .1s;
+    text-decoration:none;
 }
 
 a:hover {
@@ -226,7 +227,7 @@ ul {
 
 .posters {
     display:flex; 
-    justify-content: space-aroung; 
+    justify-content: space-between; 
     flex-wrap: wrap;
 }
 
