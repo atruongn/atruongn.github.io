@@ -164,7 +164,7 @@ ul {
 #myQuote a{
     text-decoration:none;
     line-height: 3rem;
-    color:lightgrey;
+    color:#f6e4e3;
 }
 #myQuote a:hover {
     color:#d0736c;
