@@ -180,6 +180,7 @@ ul {
 
 #work {
     position:relative;
+    margin-right:1%;
 }
 
 .title {
@@ -647,7 +648,7 @@ p {
   }
 
   .col-6 {
-    width: 49.5%;
+    width: 49%;
   }
 
   .col-7 {
