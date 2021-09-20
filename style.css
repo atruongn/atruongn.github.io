@@ -181,6 +181,7 @@ ul {
 #work {
     position:relative;
     margin-right:1%;
+    text-align: center;
 }
 
 .title {
@@ -272,6 +273,7 @@ ul {
 .menu {
     clear: both;
     max-height: 0;
+    margin-right:10px;
     transition: max-height .5s ease-out;
 }
 
@@ -672,7 +674,7 @@ p {
   }
 
   .col-12 {
-    width: 100%;
+    width: 99%;
   }
 
   .hidden-sm {
