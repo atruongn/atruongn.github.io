@@ -232,12 +232,13 @@ ul {
 }
 
 .video-wrapper {
+    width:99%;
     margin-bottom:20px;
     position: relative;
 }
 
 .video-wrapper > video {
-    width: 99.2%;
+    width: 100%;
     vertical-align: middle;
 }
 
