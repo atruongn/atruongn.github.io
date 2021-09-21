@@ -181,7 +181,6 @@ ul {
 #work {
     position:relative;
     margin-right:1%;
-    text-align: center;
 }
 
 .title {
@@ -238,7 +237,7 @@ ul {
 }
 
 .video-wrapper > video {
-    width: 100%;
+    width: 99.2%;
     vertical-align: middle;
 }
 
@@ -642,7 +641,8 @@ p {
   }
 
   .col-4 {
-    width: 30%;
+    width: 32.3%;
+    padding-right:1%;
   }
 
   .col-5 {
