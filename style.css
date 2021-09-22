@@ -161,6 +161,7 @@ ul {
     margin-top:110px;
     width:90%;
 }
+#intro 
 
 #myQuote a{
     text-decoration:none;
@@ -460,7 +461,7 @@ body {
 /* TYPOGRAPHY */
 
 h1 {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   line-height:2.7rem;
 }
 
