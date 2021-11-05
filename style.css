@@ -167,8 +167,9 @@ ul {
 #intro2 {
     margin-left: -2.5%;
     margin-top:4vh;
-    font-size: 22vw;
+    font-size: 25vw;
 }
+
 
 #myQuote a{
     text-decoration:none;
@@ -643,6 +644,9 @@ p {
 }
     #content {
     margin-top:69px;
+}
+    #intro2 {
+    font-size: 22vw;
 }
 }
 
