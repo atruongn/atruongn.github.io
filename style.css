@@ -75,10 +75,12 @@ ul {
 
 #name {
     color:black;
+
 }
 #name a {
     color:black;
     text-decoration:none;
+     font-weight: bold;
 }
 
 #name, #nav {
@@ -567,6 +569,10 @@ p {
   width: 100%;
 }
 
+.col-3 {
+     font-weight: bold;
+}
+
 .col-1-sm {
   width: 4.33%;
 }
@@ -636,7 +642,7 @@ p {
     padding-top:30px;
 }
     #content {
-    margin-top:100px;
+    margin-top:69px;
 }
 }
 
