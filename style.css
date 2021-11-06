@@ -23,11 +23,11 @@ ul {
 }
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 8px;
 }
  
 ::-webkit-scrollbar-thumb {
-    background-color:grey;
+    background-color:black;
 }
 
 #header {
