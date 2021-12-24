@@ -166,9 +166,10 @@ ul {
     width:90%;
 }
 #intro2 {
-    margin-left: -2.5%;
+    margin-left: -1%;
     margin-top:4vh;
     font-size: 25vw;
+    text-align:center;
 }
 
 
@@ -635,7 +636,7 @@ p {
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
-    width: 89%;
+    width: 90%;
   }
     #intro {
     margin-top:250px;
