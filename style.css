@@ -429,7 +429,23 @@ ul {
 .menu {
     display:;
     }
-
+.menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    margin-right:0px;
+    padding-top:11px;
+    user-select: none;
+}
+.menu2 {
+    right:0;
+    text-align:right;
+    font-size: 5vh;
+    margin-top:10px;
+    margin-right:0px;
+    padding-left:15px;
+    padding-right:10px;
+}
 }
 
 .wrapper {
@@ -655,6 +671,7 @@ p {
     font-size: 22vw;
     text-align:center;
 }
+    
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
