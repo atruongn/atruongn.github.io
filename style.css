@@ -290,7 +290,7 @@ ul {
 .menu {
     clear: both;
     max-height: 0;
-    margin-right:10px;
+    margin-right:8px;
     transition: max-height .5s ease-out;
 }
 
@@ -304,6 +304,7 @@ ul {
     cursor: pointer;
     display: inline-block;
     float: right;
+    margin-right:9px;
     padding-top:11px;
     user-select: none;
 }
@@ -370,9 +371,10 @@ ul {
 
 .menu2 {
     position:absolute;
-    background:white;
+    background:black;
     right:0;
     text-align:right;
+    font-size: 5vh;
     margin-top:10px;
     padding-left:15px;
     clear: both;
@@ -383,7 +385,7 @@ ul {
 
 .menu2 a {
     position:relative;
-    color:black;
+    color:white;
     text-decoration:none;
     z-index:99;
 }
@@ -417,13 +419,13 @@ ul {
     
   }
 .menu-btn:not(:checked) ~ .menu-icon {
-    display:none;
+    display:;
     }
 }
 
 @media (max-width: 48em) {
 .menu {
-    display:none;
+    display:;
     }
 
 }
