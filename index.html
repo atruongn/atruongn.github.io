@@ -14,62 +14,111 @@
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/flux.js?version=2.0"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-67052313-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67052313-2"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'UA-67052313-2');
-</script>
-
-  </head>
+        gtag('config', 'UA-67052313-2');
+      </script>
+    <style>
+        img {
+          transition: filter .2s ease-in-out;
+          -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+        }
+        img:hover {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%) contrast(90%)
+        }
+    </style>
+    </head>
   
   <body>
      
     <div id="header" class="container">
     	<div class="row">
         <div id="header">
-            <div id="name">
+            <div id="name" style="margin-left:-2px;">
           	<a href="/">TONY T.</a>
             </div>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            
+            <div id="menu1" style="float:right">
+          	<a href="/motion">MOTION</a> ☺ <a href="/color">COLOR</a> ☺ <a href="/about">ABOUT</a>
+            </div>
+            
+            <input class="menu-btn" type="checkbox" id="menu-btn"/>
             <label class="menu-icon" for="menu-btn">
             <span class="navicon"></span>
             </label>
         	
             <ul class="menu2">
         		<li><a href="/motion">MOTION</a></li>
+                <li><a href="/color">COLOR</a></li>
 				<li><a href="/about">ABOUT</a></li>
             </ul>
-            
         </div>
         </div>
+        
+        <div class="row">
+        <div class="col-3" style="margin-left:;text-transform: ">
+            Graphic Designer / Colorist / Motion Designer / Video Editor / Photographer
+        </div>
+        <div class="col-5 about1" style="float:right;">
+            A multidisciplinary designer dialed into digital and pop culture. Working in the scope of advertising, social media, photo, and post-production.
+        </div>
+        </div>             
     </div>
       
     <div id="main" class="container fade-in">
         <div id="content" class="row">
             <div id="work" class="col-12">
-            <a href="/airmaxday"><img src="/images/amd.jpg" width="100%"/></a></div>   
+            <div style="font-weight: bold;font-size: 1.4em;margin-top:30px;">
+                <a href="/airmaxday" style="font-weight:bold">Nike Air Max Day Worldwide 2021</a></div>
+            <div>Production Design</div>
+            <br>
+            <a href="/airmaxday"><img src="/images/amd.jpg" width="100%"/></a>
+            </div>   
 
             <div id="work" class="col-12">
-            <a href="/cannabiscountry.html"><img src="/images/200_Harvest_AZ_Launch_KV_Final-WIDE-2.jpg" width="100%"/></a></div>  
+            <div style="font-weight: bold;font-size: 1.4em;margin-top:30px;">
+                <a href="/cannabiscountry" style="font-weight:bold">Harvest Cannabis Country</a></div>
+            <div>Branding + Art Direction</div>
+            <br>
+            <a href="/cannabiscountry"><img src="/images/200_Harvest_AZ_Launch_KV_Final-WIDE-2.jpg" width="100%"/></a>
+            </div>  
                 
-            
             <div id="work" class="col-12">
+            <div style="font-weight: bold;font-size: 1.4em;margin-top:30px;">
+            <a href="/nadeshotinvitational" style="font-weight:bold">Nadeshot Invitational</a></div>
+            <div>Branding + Art Direction</div>
+            <br>
             <a href="/nadeshotinvitational"><img src="/images/NI.jpg" width="100%"/></a>
             </div>
             
             <div id="work" class="col-12">
+            <div style="font-weight: bold;font-size: 1.4em;margin-top:30px;">
+                <a href="/melodrama" style="font-weight:bold">Melodrama</a></div>
+            <div>Web Design</div>
+            <br>
             <a href="/melodrama"><img src="/images/melo001.jpg" width="100%"/></a>
             </div>
             
             
             <div id="work" class="col-12">
+            <div style="font-weight: bold;font-size: 1.4em;margin-top:30px;">
+                <a href="/dodgers" style="font-weight:bold">LA Dodgers Dugout</a></div>
+            <div>Production Design</div>
+            <br>
             <a href="/dodgers"><img src="/images/dodgers.jpg" width="100%"/></a>
             </div>
             
             <div id="work" class="col-12">
+            <div style="font-weight: bold;font-size: 1.4em;margin-top:30px;">
+                <a href="/avenue" style="font-weight:bold">Avenue Handcrafted Cannabis</a></div>
+            <div>Web Design</div>
+            <br>
             <a href="/avenue"><img src="/images/ave.jpg" width="100%"/></a>
             </div>
             
