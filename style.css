@@ -803,4 +803,7 @@ p {
   .container {
     width: 95%;
   }
+    .aboutimg {
+    width:70%;
+}
 }
