@@ -722,6 +722,9 @@ p {
   display: none;
 }
 
+.color {
+    padding-top:80px;
+}
 
 @media only screen and (min-width: 400px) {
     article {
@@ -801,6 +804,11 @@ p {
   .hidden-sm {
     display: block;
   }
+    
+    
+    .color {
+    padding-top:0px;
+}
     
     h1 {
     font-size: 3.7rem;
