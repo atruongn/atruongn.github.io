@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Review';
+    src: url('fonts/ReviewCondensed-Black.eot');
+    src: url('fonts/ReviewCondensed-Black.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ReviewCondensed-Black.woff2') format('woff2'),
+         url('fonts/ReviewCondensed-Black.woff') format('woff'),
+         url('fonts/ReviewCondensed-Black.ttf')  format('truetype'),
+         url('fonts/ReviewCondensed-Black.svg#Review') format('svg');
+}
