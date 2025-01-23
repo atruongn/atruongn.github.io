@@ -8,10 +8,10 @@
          url('fonts/ReviewCondensed-Black.svg#Review') format('svg');
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
-    font-family: Archivo Narrow, Arial, sans-serif;
+    font-family: Inter, Arial, sans-serif;
     background-color:#fff;
     color:black;
     overflow-x: hidden
@@ -136,16 +136,17 @@ ul {
 	}
 
 #name {
-    font-family: Review, Helvetica, Arial, sans-serif;
+    font-family: Review, Archivo, Helvetica, Arial, sans-serif;
     font-size: 7vmax;
   line-height: 0.8em;
   text-align:center;
     margin-top:-.5vh;
     position:fixed;
     top: 0; 
-left: 0;
-transform: translate(calc(50vw - 50%));
+    left: 0;
+    transform: translate(calc(50vw - 50%));
     z-index:100;
+    filter: invert(1) saturate(0);
 }
 #name a {
     color:black;
@@ -240,7 +241,7 @@ transform: translate(calc(50vw - 50%));
 .info {
     margin-top:20px;
     font-size:0.9rem;
-    font-family:'Source Code Pro';
+    font-family:Archivo;
 }
 
 #about {
