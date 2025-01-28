@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ROOT FONT STYLES */
 
@@ -32,7 +32,7 @@ body {
     background-color:#fff;
     color:black;
     overflow-x: hidden;
-    font-family:'Inter';
+    font-family:'Overpass', Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -159,7 +159,7 @@ ul {
 #name {
     color:black;
     font-size:3em;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     margin-top:-19px;
     margin-bottom:-10px;
 }
@@ -172,7 +172,7 @@ ul {
 #menu1 {
     color:black;
     font-size:3em;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     margin-top:-19px;
 
 }
