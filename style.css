@@ -58,7 +58,7 @@ a:hover {
 
 .worktitle {
     font-weight: bold;
-    font-size: 1em;
+    font-size: .8em;
     margin-top:-8px;
 }
 
@@ -84,7 +84,7 @@ ul {
     background-color: lawngreen;
     text-transform: uppercase;
     font-weight: bold;
-    font-size:.9em;
+    font-size:.8em;
     padding:.2em;
 }
 
@@ -158,7 +158,7 @@ ul {
 
 #name {
     color:black;
-    font-size:3em;
+    font-size:2.2em;
     letter-spacing: -2px;
     margin-top:-19px;
     margin-bottom:-10px;
@@ -171,7 +171,7 @@ ul {
 
 #menu1 {
     color:black;
-    font-size:3em;
+    font-size:2.2em;
     letter-spacing: -2px;
     margin-top:-19px;
 
@@ -337,7 +337,6 @@ ul {
     cursor: pointer;
     float: right;
     margin-right:10px;
-    margin-top:9px;
     user-select: none;
 }
 
@@ -474,7 +473,7 @@ ul {
     right:0;
     text-align:right;
     font-size: 5vh;
-    margin-top:-20px;
+    margin-top:0px;
     padding-left:15px;
     padding-right:10px;
 }
@@ -666,7 +665,6 @@ p {
 .col-2,
 .col-3,
 .col-4,
-.col-5,
 .col-6,
 .col-8,
 .col-9,
@@ -677,6 +675,10 @@ p {
 }
 
 .col-7 {
+    width:100%;
+}
+
+.col-5 {
     width:95%;
 }
 
@@ -766,6 +768,7 @@ p {
     font-size: 22vw;
     text-align:center;
 }
+    
 
 }
 
@@ -867,7 +870,11 @@ p {
     #content {
     margin-top:30px;
 }
+    
+    .worktitle {
+    font-size: 1em;
 }
+
 
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
