@@ -1,50 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass:400,700|Archivo+Black');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-body {
-    background-color:#fff;
-    color:black;
-    overflow-x: hidden
-}
+/* ROOT FONT STYLES */
 
-a {
-    color:black;
-    transition: .1s;
-}
-
-a:hover {
-    color:#FF00BF;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-}
-
-.marquee {
-    position:fixed;
-    z-index:1000;
-    --gap: 1rem;
-    display: flex;
-    overflow: hidden;
-    user-select: none;
-    gap: var(--gap);
-    background-color: lawngreen;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size:.9em;
-    padding-top:.2em;
-}
-
-.marquee_content {
-    flex-shrink: 0;
-    display: flex;
-    justify-content: space-around;
-    min-width: 100%;
-    gap: var(--gap);
-    animation: scroll 45s linear infinite;
-    font-weight: bold;
+* {
+  color: black;
+  font-weight:normal;
+  text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: subpixel-antialiased;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-foynt-smoothing: grayscale;
 }
 
 @keyframes scroll {
@@ -64,6 +28,79 @@ ul {
     background-color:black;
 }
 
+body {
+    background-color:#fff;
+    color:black;
+    overflow-x: hidden;
+    font-family:'Inter';
+}
+
+a {
+    color:black;
+    transition: .1s;
+}
+
+a:hover {
+    color:#FF00BF;
+}
+
+.border2 {
+    border: 0.18em solid black;
+    border-radius: 30px;
+    width: 95%;
+    height: 90%;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:1000;
+}
+
+.worktitle {
+    font-weight: bold;
+    font-size: 1em;
+    margin-top:-8px;
+}
+
+.worktitle a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.marquee {
+    position:fixed;
+    z-index:1000;
+    --gap: .5rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    background-color: lawngreen;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:.9em;
+    padding:.2em;
+}
+
+.marquee_content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+    animation: scroll 45s linear infinite;
+    font-weight: bold;
+}
+
+.asterisk span{
+    font-size:1.7em;
+}
 
 #header {
     position:relative;
@@ -74,10 +111,6 @@ ul {
             animation-duration: 0.6s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
-}
-
-#header a:hover {
-    color:#FF00BF;
 }
 
 @-webkit-keyframes header {
@@ -165,7 +198,6 @@ ul {
     width:90%;
 }
 #intro2 {
-    margin-left:;
     margin-top:2vh;
     font-size: 22vw;
     text-align:center;
@@ -226,7 +258,6 @@ ul {
 .info {
     margin-top:20px;
     font-size:0.9rem;
-    font-family:'Source Code Pro';
 }
 
 #about {
@@ -300,18 +331,13 @@ ul {
     transition: max-height .5s ease-out;
 }
 
-.menu a {
-    text-decoration:;
-}
-
 /* menu icon */
 
 .menu-icon {
     cursor: pointer;
-    display: inline-block;
     float: right;
     margin-right:10px;
-    padding-top:11px;
+    margin-top:9px;
     user-select: none;
 }
 
@@ -322,6 +348,7 @@ ul {
     position: relative;
     transition: background .2s ease-out;
     width: 28px;
+    margin-top:-10px;
 }
 
 .menu-icon .navicon:before,
@@ -381,7 +408,6 @@ ul {
     right:0;
     text-align:right;
     font-size: 5vh;
-    margin-top:0px;
     margin-right:10px;
     padding-left:15px;
     padding-right:10px;
@@ -441,8 +467,6 @@ ul {
 .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
-    margin-right:0px;
     padding-top:13px;
     user-select: none;
 }
@@ -451,12 +475,12 @@ ul {
     text-align:right;
     font-size: 5vh;
     margin-top:-20px;
-    margin-right:0px;
     padding-left:15px;
     padding-right:10px;
 }
 
 }
+*/
 
 .wrapper {
     width: 95%;
@@ -552,19 +576,6 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
-}
-
-/* ROOT FONT STYLES */
-
-* {
-  font-family: 'Overpass', Helvetica, Arial, sans-serif;
-  color: black;
-  line-height: 1.5;
-  font-weight:normal;
-  text-rendering: optimizeLegibility;
-   -webkit-font-smoothing: subpixel-antialiased;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
 }
 
 /* TYPOGRAPHY */
@@ -816,11 +827,12 @@ p {
     
     .marquee {
         font-size:1.1em;
+        padding:.2em;
     }
     
     
     #main {
-    padding-top:0px;
+    padding-top:50px;
 }
     
     h1 {
@@ -853,7 +865,7 @@ p {
     padding-top:0px;
 }
     #content {
-    margin-top:50px;
+    margin-top:30px;
 }
 }
 

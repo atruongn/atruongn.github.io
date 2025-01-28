@@ -1,17 +1,6 @@
-@font-face {
-    font-family: 'Review';
-    src: url('fonts/ReviewCondensed-Black.eot');
-    src: url('fonts/ReviewCondensed-Black.eot?#iefix') format('embedded-opentype'),
-         url('fonts/ReviewCondensed-Black.woff2') format('woff2'),
-         url('fonts/ReviewCondensed-Black.woff') format('woff'),
-         url('fonts/ReviewCondensed-Black.ttf')  format('truetype'),
-         url('fonts/ReviewCondensed-Black.svg#Review') format('svg');
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700|Archivo+Black');
 
 body {
-    font-family: Inter, Arial, sans-serif;
     background-color:#fff;
     color:black;
     overflow-x: hidden
@@ -54,7 +43,7 @@ ul {
     justify-content: space-around;
     min-width: 100%;
     gap: var(--gap);
-    animation: scroll 25s linear infinite;
+    animation: scroll 45s linear infinite;
     font-weight: bold;
 }
 
@@ -77,9 +66,8 @@ ul {
 
 
 #header {
-    width:100%;
-    margin-top:-5vh;
-    position:fixed;
+    position:relative;
+    padding-top:10px;
     z-index:50;
     font-size:1.1rem;
     -webkit-animation-duration: 0.6s;
@@ -136,17 +124,11 @@ ul {
 	}
 
 #name {
-    font-family: Review, Archivo, Helvetica, Arial, sans-serif;
-    font-size: 7vmax;
-  line-height: 0.8em;
-  text-align:center;
-    margin-top:-.5vh;
-    position:fixed;
-    top: 0; 
-    left: 0;
-    transform: translate(calc(50vw - 50%));
-    z-index:100;
-    filter: invert(1) saturate(0);
+    color:black;
+    font-size:3em;
+    letter-spacing: -3px;
+    margin-top:-19px;
+    margin-bottom:-10px;
 }
 #name a {
     color:black;
@@ -157,6 +139,7 @@ ul {
 #menu1 {
     color:black;
     font-size:3em;
+    letter-spacing: -3px;
     margin-top:-19px;
 
 }
@@ -168,20 +151,22 @@ ul {
 
 
 #name, #nav {
-    display:;
+    display:inline-block;
 }
 
 #main {
     position:relative;
     padding-bottom:80px;
+    padding-top:80px;
 }
 
 #intro {
-
+    margin-top:110px;
     width:90%;
 }
 #intro2 {
     margin-left:;
+    margin-top:2vh;
     font-size: 22vw;
     text-align:center;
 }
@@ -197,6 +182,7 @@ ul {
 }
 
 #content {
+    margin-top:-50px;
 }
 
 #workinfo {
@@ -207,7 +193,6 @@ ul {
     position:relative;
     margin-right:1%;
     margin-bottom:1em;
-    margin-top:250px;
 }
 
 #work2 {
@@ -241,7 +226,7 @@ ul {
 .info {
     margin-top:20px;
     font-size:0.9rem;
-    font-family:Archivo;
+    font-family:'Source Code Pro';
 }
 
 #about {
@@ -297,6 +282,11 @@ ul {
 
 .video-overlay-play-button.is-hidden {
     display: none;
+}
+
+.player {
+    aspect-ratio: 16 / 9;
+    width:100%;
 }
 
 
@@ -561,13 +551,15 @@ body {
   padding: 0;
   left: 0;
   top: 0;
+  font-size: 100%;
 }
 
 /* ROOT FONT STYLES */
 
 * {
+  font-family: 'Overpass', Helvetica, Arial, sans-serif;
   color: black;
-  line-height:;
+  line-height: 1.5;
   font-weight:normal;
   text-rendering: optimizeLegibility;
    -webkit-font-smoothing: subpixel-antialiased;
@@ -644,7 +636,7 @@ p {
 
 .container {
   width: 95%;
-  max-width:100%;
+  max-width:;
   margin: 0 auto;
 }
 
@@ -757,6 +749,7 @@ p {
     margin-top:250px;
 }
     #header {
+    padding-top:20px;
 }
     #intro2 {
     font-size: 22vw;
@@ -860,12 +853,13 @@ p {
     padding-top:0px;
 }
     #content {
+    margin-top:50px;
 }
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
-    width: 100%;
+    width: 95%;
   }
     .aboutimg {
     width:70%;
