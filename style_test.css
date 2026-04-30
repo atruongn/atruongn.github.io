@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass:400,700|Archivo+Black');
 @import url('/fonts/HelveticaNeue.css');
+@font-face {
+    font-family: 'Review';
+    src: url('fonts/ReviewCondensed-Black.woff2') format('woff2'),
+         url('fonts/ReviewCondensed-Black.woff') format('woff'),
+         url('fonts/ReviewCondensed-Black.ttf') format('truetype');
+    font-weight: 900; /* Since this is a "Black" weight */
+    font-style: normal;
+}
 
 body {
     background-color:#fff;
@@ -26,12 +34,11 @@ ul {
 .marquee {
     position:fixed;
     z-index:1000;
-    --gap: 1rem;
+    --gap: -48rem;
     display: flex;
     overflow: hidden;
     user-select: none;
     gap: var(--gap);
-    background-color: lawngreen;
     text-transform: uppercase;
     font-weight: bold;
     font-size:.9em;
@@ -180,7 +187,6 @@ ul {
     width:90%;
 }
 #intro2 {
-    margin-left:;
     margin-top:2vh;
     font-size: 22vw;
     text-align:center;
@@ -573,14 +579,11 @@ span.stretch {
 }
 
 * {
-  font-family: Helvetica Neue, Arial, sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   color: black;
   line-height: 1.5;
   font-weight:normal;
   text-rendering: optimizeLegibility;
-   -webkit-font-smoothing: subpixel-antialiased;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
 }
 
 /* TYPOGRAPHY */
